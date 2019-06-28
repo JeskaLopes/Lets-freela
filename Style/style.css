@@ -448,7 +448,7 @@ li > a {
 }
 
 #fale_conosco{
-    padding-top:2%; 
+    padding-top:6%; 
     padding-bottom:6%; 
 }
 
@@ -509,8 +509,8 @@ li > a {
     width: 17.5rem;
 }
 #botao-form{
-    background-color: #00cf65;
-    border: none;
+    background-color: #304149;
+    border-color: #304149;
     color: #ffffff;
     border-radius: 0 1.25rem 1.25rem 0;
     margin-left: 0;
@@ -555,20 +555,29 @@ li > a {
 }
 #btn-verde{
     border:none;
-    background-color: #00cf65;
+    background-color: #304149;
     border: none;
     color: #ffffff;
     width: 20%;     
 }
 
 #btn-verde:hover{
-    background-color: #67eea8;
+    background-color: #4c5d65;
 }
 .etiqueta{
     color: #586f7a
 }
 form input {
     color:#586f7a;
+}
+
+input::-webkit-input-placeholder{
+    font-size: 0.8rem;
+    margin-left:2%; 
+}
+
+#first, #last, #inputEmail4, #text, #text2, #exampleFormControlTextarea1{
+    border-color: #304149; 
 }
 
 .alinhaSelect {
@@ -901,6 +910,3 @@ footer{
     display:block!important;
   }
 
-  .timeOut{
-    transition-delay: 1s;
-  }
