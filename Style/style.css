@@ -507,7 +507,11 @@ li > a {
     border-radius: 1.25rem 0 0 1.25rem;
     margin-right: 0;
     width: 17.5rem;
+    border: none;
+    padding-left: 4%;
 }
+
+
 #botao-form{
     background-color: #304149;
     border-color: #304149;
